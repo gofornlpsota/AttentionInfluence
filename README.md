@@ -1,4 +1,3 @@
-```bash
 # Updated a strong Dolma 3 baseline
 
 We have added **Dolma 3 as a strong recent baseline**, using its [official released quality-classifier weights](https://huggingface.co/allenai/dolma3-fasttext-quality-classifier). The 1.7B target models use the same candidate corpus, domain-token quotas, initialization, 8K context, global batch and 100B training schedule. We directly apply the released classifier weights without additional fitting.
@@ -42,4 +41,3 @@ Dolma 3 remains a strong baseline. At 100B tokens, our method achieves an 11-tas
 Please refer to the Supplementary Material for the latest code to reproduce our experiments.
 
 For evaluation, please refer to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness).
-```
