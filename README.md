@@ -36,6 +36,7 @@ The rBridge comparison uses the same final checkpoints; lower is better. Each ag
 | Dolma 3 classifier | 0.58792 | -0.04563 | 0.48602 | -0.02784 |
 
 Dolma 3 remains a strong baseline. At 100B tokens, our method achieves an 11-task mean of 35.72% versus 35.48% for Dolma 3 (+0.24 percentage points), and scores higher on GSM8K, MATH, HumanEval and SVAMP than all three baselines. Dolma 3 obtains lower aggregate rBridge in both 0-shot (0.58792 vs. 0.60597) and 5-shot (0.48602 vs. 0.49568); both methods improve over Random in both conditions. These comparisons distinguish task performance from prediction of fixed reference reasoning.
+
 ---
 # Reproduction
 Please refer to the Supplementary Material for the latest code to reproduce our experiments.
